@@ -9,9 +9,9 @@ import javax.sql.DataSource;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceBuilder;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -27,9 +27,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import com.zaxxer.hikari.HikariDataSource;
 
 @Configuration
-@EnableJpaRepositories(basePackages = "com.websystique.springboot.repositories",
-		entityManagerFactoryRef = "entityManagerFactory",
-		transactionManagerRef = "transactionManager")
+@EnableJpaRepositories(basePackages = "com.websystique.springboot.repositories")
 @EnableTransactionManagement
 public class JpaConfiguration {
 
@@ -57,7 +55,7 @@ public class JpaConfiguration {
 	@Bean
 	public DataSource dataSource() {
 		DataSourceProperties dataSourceProperties = dataSourceProperties();
-			HikariDataSource dataSource = (HikariDataSource) DataSourceBuilder
+			HikariDataSource dataSource = DataSourceBuilder
 					.create(dataSourceProperties.getClassLoader())
 					.driverClassName(dataSourceProperties.getDriverClassName())
 					.url(dataSourceProperties.getUrl())
@@ -76,7 +74,7 @@ public class JpaConfiguration {
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory() throws NamingException {
 		LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
 		factoryBean.setDataSource(dataSource());
-		factoryBean.setPackagesToScan(new String[] { "com.websystique.springboot.model" });
+		factoryBean.setPackagesToScan("com.websystique.springboot.model");
 		factoryBean.setJpaVendorAdapter(jpaVendorAdapter());
 		factoryBean.setJpaProperties(jpaProperties());
 		return factoryBean;
@@ -87,8 +85,7 @@ public class JpaConfiguration {
 	 */
 	@Bean
 	public JpaVendorAdapter jpaVendorAdapter() {
-		HibernateJpaVendorAdapter hibernateJpaVendorAdapter = new HibernateJpaVendorAdapter();
-		return hibernateJpaVendorAdapter;
+		return new HibernateJpaVendorAdapter();
 	}
 
 	/*
@@ -115,3 +112,8 @@ public class JpaConfiguration {
 	}
 
 }
+
+/*
+entityManagerFactoryRef = "entityManagerFactory",
+		transactionManagerRef = "transactionManager"
+ */

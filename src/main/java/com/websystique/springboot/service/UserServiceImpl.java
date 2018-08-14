@@ -18,7 +18,7 @@ public class UserServiceImpl implements UserService{
 	private UserRepository userRepository;
 
 	public User findById(Long id) {
-		return userRepository.findOne(id);
+		return userRepository.findById(id).orElse(new User());
 	}
 
 	public User findByName(String name) {
@@ -34,7 +34,7 @@ public class UserServiceImpl implements UserService{
 	}
 
 	public void deleteUserById(Long id){
-		userRepository.delete(id);
+		userRepository.deleteById(id);
 	}
 
 	public void deleteAllUsers(){
