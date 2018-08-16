@@ -10,7 +10,7 @@
 	                <input type="hidden" ng-model="ctrl.user.id" />
 	                <div class="row">
 	                    <div class="form-group col-md-12">
-	                        <label class="col-md-2 control-lable" for="uname">Name</label>
+	                        <label class="col-md-2 control-label" for="uname">Name</label>
 	                        <div class="col-md-7">
 	                            <input type="text" ng-model="ctrl.user.name" id="uname" class="username form-control input-sm" placeholder="Enter your name" required ng-minlength="3"/>
 	                        </div>
@@ -19,7 +19,7 @@
 
 	                <div class="row">
 	                    <div class="form-group col-md-12">
-	                        <label class="col-md-2 control-lable" for="age">Age</label>
+	                        <label class="col-md-2 control-label" for="age">Age</label>
 	                        <div class="col-md-7">
 	                            <input type="text" ng-model="ctrl.user.age" id="age" class="form-control input-sm" placeholder="Enter your Age." required ng-pattern="ctrl.onlyIntegers"/>
 	                        </div>
@@ -28,7 +28,7 @@
 	
 	                <div class="row">
 	                    <div class="form-group col-md-12">
-	                        <label class="col-md-2 control-lable" for="salary">Salary</label>
+	                        <label class="col-md-2 control-label" for="salary">Salary</label>
 	                        <div class="col-md-7">
 	                            <input type="text" ng-model="ctrl.user.salary" id="salary" class="form-control input-sm" placeholder="Enter your Salary." required ng-pattern="ctrl.onlyNumbers"/>
 	                        </div>
