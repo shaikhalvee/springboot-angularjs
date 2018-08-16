@@ -4,7 +4,7 @@ angular.module('crudApp').factory('UserService',
 	['$localStorage', '$http', '$q', 'urls',
 		function ($localStorage, $http, $q, urls) {
 
-			var factory = {
+			return {
 				loadAllUsers: loadAllUsers,
 				getAllUsers: getAllUsers,
 				getUser: getUser,
@@ -12,8 +12,6 @@ angular.module('crudApp').factory('UserService',
 				updateUser: updateUser,
 				removeUser: removeUser
 			};
-
-			return factory;
 
 			function loadAllUsers() {
 				console.log('Fetching all users');
