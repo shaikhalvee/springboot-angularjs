@@ -18,7 +18,7 @@ public class UserServiceImpl implements UserService{
 	private UserRepository userRepository;
 
 	public User findById(Long id) {
-		return userRepository.findById(id).orElse(new User());
+		return userRepository.findById(id).orElse(null);
 	}
 
 	public User findByName(String name) {
