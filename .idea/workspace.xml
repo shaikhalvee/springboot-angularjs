@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64840a1-bec8-488f-b5c7-5807a9ccc2f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/app/UserService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/list.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,6 +19,7 @@
     <session id="606424647">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -26,7 +28,7 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="ftl" value="6" />
-          <entry key="java" value="16" />
+          <entry key="java" value="17" />
           <entry key="js" value="20" />
           <entry key="rnc" value="1" />
           <entry key="xml" value="1" />
@@ -37,7 +39,7 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="FTL" value="6" />
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="17" />
           <entry key="JavaScript" value="20" />
           <entry key="RNG Compact" value="1" />
           <entry key="XML" value="1" />
@@ -48,7 +50,7 @@
         <counts>
           <entry key="ftl" value="6" />
           <entry key="java" value="47" />
-          <entry key="js" value="23" />
+          <entry key="js" value="269" />
           <entry key="xml" value="46" />
           <entry key="yml" value="6" />
         </counts>
@@ -57,7 +59,7 @@
         <counts>
           <entry key="FTL" value="6" />
           <entry key="JAVA" value="47" />
-          <entry key="JavaScript" value="23" />
+          <entry key="JavaScript" value="269" />
           <entry key="XML" value="46" />
           <entry key="YAML" value="6" />
         </counts>
@@ -66,15 +68,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.ftl">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,19 +78,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="273">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/list.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="189">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -105,17 +107,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            <state relative-caret-position="210">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/UserController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="208">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -123,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="1722">
+              <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -135,6 +137,8 @@
     <findStrings>
       <find>/*! ngstorage 0.3.10 | Copyright (c) 2016 Gias Kay Lee | MIT License */!function(a,b){&quot;use strict&quot;;&quot;function&quot;==typeof define&amp;&amp;define.amd?define([&quot;angular&quot;],b):a.hasOwnProperty(&quot;angular&quot;)?b(a.angular):&quot;object&quot;==typeof exports&amp;&amp;(module.exports=b(require(&quot;angular&quot;)))}(this,function(a){&quot;use strict&quot;;function b(a,b){var c;try{c=a[b]}catch(d){c=!1}if(c){var e=&quot;__&quot;+Math.round(1e7*Math.random());try{a[b].setItem(e,e),a[b].removeItem(e,e)}catch(d){c=!1}}return c}function c(c){var d=b(window,c);return function(){var e=&quot;ngStorage-&quot;;this.setKeyPrefix=function(a){if(&quot;string&quot;!=typeof a)throw new TypeError(&quot;[ngStorage] - &quot;+c+&quot;Provider.setKeyPrefix() expects a String.&quot;);e=a};var f=a.toJson,g=a.fromJson;this.setSerializer=function(a){if(&quot;function&quot;!=typeof a)throw new TypeError(&quot;[ngStorage] - &quot;+c+&quot;Provider.setSerializer expects a function.&quot;);f=a},this.setDeserializer=function(a){if(&quot;function&quot;!=typeof a)throw new TypeError(&quot;[ngStorage] - &quot;+c+&quot;Provider.setDeserializer expects a function.&quot;);g=a},this.supported=function(){return!!d},this.get=function(a){return d&amp;&amp;g(d.getItem(e+a))},this.set=function(a,b){return d&amp;&amp;d.setItem(e+a,f(b))},this.remove=function(a){d&amp;&amp;d.removeItem(e+a)},this.$get=[&quot;$rootScope&quot;,&quot;$window&quot;,&quot;$log&quot;,&quot;$timeout&quot;,&quot;$document&quot;,function(d,h,i,j,k){var l,m,n=e.length,o=b(h,c),p=o||(i.warn(&quot;This browser does not support Web Storage!&quot;),{setItem:a.noop,getItem:a.noop,removeItem:a.noop}),q={$default:function(b){for(var c in b)a.isDefined(q[c])||(q[c]=a.copy(b[c]));return q.$sync(),q},$reset:function(a){for(var b in q)&quot;$&quot;===b[0]||delete q[b]&amp;&amp;p.removeItem(e+b);return q.$default(a)},$sync:function(){for(var a,b=0,c=p.length;c&gt;b;b++)(a=p.key(b))&amp;&amp;e===a.slice(0,n)&amp;&amp;(q[a.slice(n)]=g(p.getItem(a)))},$apply:function(){var b;if(m=null,!a.equals(q,l)){b=a.copy(l),a.forEach(q,function(c,d){a.isDefined(c)&amp;&amp;&quot;$&quot;!==d[0]&amp;&amp;(p.setItem(e+d,f(c)),delete b[d])});for(var c in b)p.removeItem(e+c);l=a.copy(q)}},$supported:function(){return!!o}};return q.$sync(),l=a.copy(q),d.$watch(function(){m||(m=j(q.$apply,100,!1))}),h.addEventListener&amp;&amp;h.addEventListener(&quot;storage&quot;,function(b){if(b.key){var c=k[0];c.hasFocus&amp;&amp;c.hasFocus()||e!==b.key.slice(0,n)||(b.newValue?q[b.key.slice(n)]=g(b.newValue):delete q[b.key.slice(n)],l=a.copy(q),d.$apply())}}),h.addEventListener&amp;&amp;h.addEventListener(&quot;beforeunload&quot;,function(){q.$apply()}),q}]}}return a=a&amp;&amp;a.module?a:window.angular,a.module(&quot;ngStorage&quot;,[]).provider(&quot;$localStorage&quot;,c(&quot;localStorage&quot;)).provider(&quot;$sessionStorage&quot;,c(&quot;sessionStorage&quot;))});</find>
       <find>lable</find>
+      <find>ctrl.sub</find>
+      <find>ctrl.edi</find>
     </findStrings>
     <replaceStrings>
       <replace>label</replace>
@@ -167,9 +171,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/error.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/app/app.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/list.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/app/UserController.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js" />
       </list>
     </option>
   </component>
@@ -356,7 +361,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534421815880" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534477045473" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -364,7 +369,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3403782" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -398,17 +403,18 @@
       <option name="presentableId" value="Default" />
       <updated>1534242582349</updated>
       <workItem from="1534242590596" duration="823000" />
+      <workItem from="1534477827011" duration="132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10188000" />
+    <option name="totallyTimeSpent" value="15981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22492401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22796352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -419,7 +425,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45335516" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.497545" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -441,40 +447,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22492401" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45335516" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32242227" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32978722" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -485,19 +457,35 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/resources/static/js/app/app.js</url>
-          <line>10</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" log-message="true" log-stack="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js</url>
+          <line>67</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/resources/static/js/app/app.js</url>
-          <line>25</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js</url>
+          <line>70</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js</url>
+          <line>26</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js</url>
+          <line>28</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -592,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -629,29 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springboot/controller/RestApiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1386">
+        <state relative-caret-position="21">
           <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -662,17 +622,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/UserController.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="273">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/list.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="-714">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/UserController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/UserService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
         </state>
       </provider>
     </entry>

@@ -13,7 +13,17 @@ angular.module('crudApp').factory('UserService',
 				removeUser: removeUser
 			};
 
+			function sleep(milliseconds) {
+				var start = new Date().getTime();
+				for (var i = 0; i < 1e7; i++) {
+					if ((new Date().getTime() - start) > milliseconds) {
+						break;
+					}
+				}
+			}
+
 			function loadAllUsers() {
+				sleep(3);
 				console.log('Fetching all users');
 				var deferred = $q.defer();
 				$http.get(urls.USER_SERVICE_API)

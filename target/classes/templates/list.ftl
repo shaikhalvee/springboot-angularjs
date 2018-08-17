@@ -43,7 +43,7 @@
 	                </div>
 	            </form>
     	    </div>
-		</div>	
+		</div>
     </div>
     <div class="panel panel-default">
         <!-- Default panel contents -->
